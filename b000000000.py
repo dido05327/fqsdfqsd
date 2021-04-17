@@ -15,7 +15,9 @@ def main():
   print(len(docs.fetch_all()))
 
    # Ne pas oublier de remercier le gestionnaire de BD
+   
   session.close
+
 
 
 import mysqlx
